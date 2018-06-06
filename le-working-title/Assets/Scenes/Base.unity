@@ -188,6 +188,7 @@ GameObject:
   - component: {fileID: 282840814}
   - component: {fileID: 282840813}
   - component: {fileID: 282840811}
+  - component: {fileID: 282840815}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -244,13 +245,70 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 282840810}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1, z: -10}
+  m_LocalRotation: {x: 0.5, y: 0, z: 0, w: 0.8660254}
+  m_LocalPosition: {x: 0, y: 9, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 60, y: 0, z: 0}
+--- !u!114 &282840815
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 282840810}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f6e9950fa0087d47979c348ad2a1911, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LastTab: 2
+  MovementSettingsFoldout: 0
+  ZoomingSettingsFoldout: 0
+  RotationSettingsFoldout: 0
+  HeightSettingsFoldout: 0
+  MapLimitSettingsFoldout: 0
+  TargetingSettingsFoldout: 0
+  InputSettingsFoldout: 0
+  UseFixedUpdate: 0
+  KeyboardMovementSpeed: 5
+  ScreenEdgeMovementSpeed: 3
+  FollowingSpeed: 5
+  RotationSped: 3
+  PanningSpeed: 10
+  MouseRotationSpeed: 50
+  AutoHeight: 1
+  GroundMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  MinHeight: 5
+  MaxHeight: 15
+  HeightDampening: 5
+  KeyboardZoomingSensitivity: 2
+  ScrollWheelZoomingSensitivity: 50
+  LimitMap: 1
+  LimitX: 50
+  LimitY: 50
+  TargetFollow: {fileID: 0}
+  TargetOffset: {x: 0, y: 0, z: 0}
+  UseScreenEdgeInput: 1
+  ScreenEdgeBorder: 25
+  UseKeyboardInput: 1
+  HorizontalAxis: Horizontal
+  VerticalAxis: Vertical
+  UsePanning: 1
+  PanningKey: 325
+  UseKeyboardZooming: 0
+  ZoomInKey: 101
+  ZoomOutKey: 113
+  UseScrollwheelZooming: 1
+  ZoomingAxis: Mouse ScrollWheel
+  UseKeyboardRotation: 0
+  RotateRightKey: 120
+  RotateLeftKey: 122
+  UseMouseRotation: 1
+  MouseRotationKey: 324
 --- !u!1 &395709087
 GameObject:
   m_ObjectHideFlags: 0
@@ -277,7 +335,7 @@ Transform:
   m_GameObject: {fileID: 395709087}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 2, y: 1, z: 2}
+  m_LocalScale: {x: 4, y: 1, z: 4}
   m_Children: []
   m_Father: {fileID: 1822084759}
   m_RootOrder: 0
