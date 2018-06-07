@@ -43,8 +43,6 @@ public static class Helper
 
         min.z = camera.nearClipPlane;
         max.z = camera.farClipPlane;
-        //min.z = 0.0f;
-        //max.z = 1.0f;
 
         Bounds bounds = new Bounds();
         bounds.SetMinMax(min, max);

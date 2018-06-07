@@ -15,7 +15,7 @@
             <e p="CameraControlEditor.cs" t="Include" />
             <e p="LayoutHelpers.cs" t="Include" />
           </e>
-          <e p="Helper.cs" t="Include" />
+          <e p="GUIHelpers.cs" t="Include" />
           <e p="SelectableUnit.cs" t="Include" />
           <e p="SelectionControl.cs" t="Include" />
         </e>
