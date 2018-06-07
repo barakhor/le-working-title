@@ -6,16 +6,18 @@
       <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="Projectors" t="Include">
+          <e p="ProjectorAdditiveTint.shader" t="Include" />
+        </e>
         <e p="Scripts" t="Include">
-          <e p="Camera" t="Include">
-            <e p="Movement.cs" t="Include" />
-          </e>
+          <e p="CameraControl.cs" t="Include" />
           <e p="Editor" t="Include">
-            <e p="Camera" t="Include">
-              <e p="Movement.cs" t="Include" />
-            </e>
+            <e p="CameraControlEditor.cs" t="Include" />
             <e p="LayoutHelpers.cs" t="Include" />
           </e>
+          <e p="Helper.cs" t="Include" />
+          <e p="SelectableUnit.cs" t="Include" />
+          <e p="SelectionControl.cs" t="Include" />
         </e>
       </e>
       <e p="le-working-title.sln" t="IncludeFlat" />
